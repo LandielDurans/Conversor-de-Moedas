@@ -49,13 +49,12 @@ public class Principal {
                     case 6:
                         conversao.Converter("COP", "USD", valor);
                         break;
-                    case 7:
-                        System.out.println("Obrigado por usar o conversor. Até logo!");
-                        break;
-                    default:
-                        System.out.println("Opção inválida, tente novamente.");
-                        break;
                 }
+            } else if (option == 7) {
+                System.out.println("Obrigado por usar o conversor. Até logo!");
+            } else {
+                System.out.println("Opção inválida, tente novamente.");
+
             }
         }
     }
