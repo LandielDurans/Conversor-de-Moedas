@@ -17,7 +17,6 @@ public class Conversao {
         HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 
         Gson gson = new Gson();
-
         CamposMoedas camposMoedas = gson.fromJson(response.body(), CamposMoedas.class);
         System.out.println("Valor de " + valor + " convertido de " + moedaOrigem + " para " + moedaDestino + " é de " + camposMoedas.conversion_result() + "\n");
     }
