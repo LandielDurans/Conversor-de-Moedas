@@ -33,7 +33,7 @@ O usuário pode realizar quantas conversões desejar enquanto o programa estiver
 ### Requisitos
 
 - IntelliJ IDEA instalado
-- Biblioteca **GSON** baixada e adicionada ao projeto (para manipulação de JSON)
+- Biblioteca **GSON** baixada e adicionada ao projeto (para manipulação de JSON) [https://mvnrepository.com/artifact/com.google.code.gson/gson](https://mvnrepository.com/artifact/com.google.code.gson/gson)
 
 ### Passos para configuração do GSON no IntelliJ
 
@@ -46,16 +46,11 @@ O usuário pode realizar quantas conversões desejar enquanto o programa estiver
 7. Selecione o arquivo JAR do GSON baixado.
 8. Confirme para adicionar a dependência.
 
-### Download do código fonte
-
-Você pode baixar o código fonte no repositório oficial:  
-[https://github.com/maumauriciog/challenge_conversor_de_moedas](https://github.com/maumauriciog/challenge_conversor_de_moedas)
-
 ### Executando o programa
 
 - Execute a classe principal (`Main`) pelo IntelliJ:
   - Clique em **Run Main**  
-  - Ou use o atalho **Shift + F10**
+  - Ou use o atalho **Ctrl + F5**
 
 ---
 
@@ -63,3 +58,14 @@ Você pode baixar o código fonte no repositório oficial:
 
 Ao executar, você verá um menu como o exemplo abaixo:
 
+ 1) Dolár --> Peso Argentino
+ 2) Peso Argentino --> Dolár
+ 3) Dólar --> Real Brasileiro
+ 4) Real Brasileiro --> Dólar
+ 5) Dólar --> Peso Colombiano
+ 6) Peso colombiano --> Dólar
+ 7) Sair""");
+
+Esolha uma opção valida:
+
+Em seguida o usuario poderá passar os valores.
