@@ -19,7 +19,6 @@ public class Conversao {
         Gson gson = new Gson();
 
         CamposMoedas camposMoedas = gson.fromJson(response.body(), CamposMoedas.class);
-        System.out.println("\n Resultado da operacão");
         System.out.println("Valor de " + valor + " convertido de " + moedaOrigem + " para " + moedaDestino + " é de " + camposMoedas.conversion_result() + "\n");
     }
 }
