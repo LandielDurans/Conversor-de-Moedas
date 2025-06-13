@@ -22,18 +22,12 @@ Via console, o usuário escolhe uma opção do menu para a conversão desejada e
 
 ---
 
-## Customizável
-
-O usuário pode realizar quantas conversões desejar enquanto o programa estiver em execução, sem a necessidade de reiniciar para novas consultas.
-
----
-
 ## Compilando e Executando o Conversor de Moedas
 
 ### Requisitos
 
 - IntelliJ IDEA instalado
-- Biblioteca **GSON** baixada e adicionada ao projeto (para manipulação de JSON) [https://mvnrepository.com/artifact/com.google.code.gson/gson](https://mvnrepository.com/artifact/com.google.code.gson/gson)
+- Biblioteca [**GSON**](https://mvnrepository.com/artifact/com.google.code.gson/gson) baixada e adicionada ao projeto (para manipulação de JSON)
 
 ### Passos para configuração do GSON no IntelliJ
 
@@ -48,7 +42,7 @@ O usuário pode realizar quantas conversões desejar enquanto o programa estiver
 
 ### Executando o programa
 
-- Execute a classe principal (`Main`) pelo IntelliJ:
+- Execute a classe principal (`Principal`) pelo IntelliJ:
   - Clique em **Run Main**  
   - Ou use o atalho **Ctrl + F5**
 
@@ -58,7 +52,8 @@ O usuário pode realizar quantas conversões desejar enquanto o programa estiver
 
 Ao executar, você verá um menu como o exemplo abaixo:
 
- 1) Dolár --> Peso Argentino
+```` 
+1) Dolár --> Peso Argentino
  2) Peso Argentino --> Dolár
  3) Dólar --> Real Brasileiro
  4) Real Brasileiro --> Dólar
@@ -66,6 +61,16 @@ Ao executar, você verá um menu como o exemplo abaixo:
  6) Peso colombiano --> Dólar
  7) Sair""");
 
-Esolha uma opção valida:
+Esolha uma opção valida: 3
+````
+Em seguida o usuario poderá passar os valores a serem convertidos.
 
-Em seguida o usuario poderá passar os valores.
+````
+Digite o valor a ser convertido: 10
+````
+
+E por fim mostrará o resultado para o usuário:
+
+````
+Valor de 10.0 convertido de USD para BRL é de 55.37
+````
